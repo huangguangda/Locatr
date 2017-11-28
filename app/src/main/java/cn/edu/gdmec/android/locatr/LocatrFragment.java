@@ -17,6 +17,12 @@ public class LocatrFragment extends Fragment{
         return new LocatrFragment ();
     }
     @Override
+    public void onCreate(Bundle savedInstanceState){
+        super.onCreate ( savedInstanceState );
+        setHasOptionsMenu ( true );
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         View v = inflater.inflate ( R.layout.fragment_locatr, container, false );
         mImageView = (ImageView) v.findViewById ( R.id.image );
