@@ -49,6 +49,12 @@ import java.util.List;
  内容包括：CSS预处理器、框架、
  CSS结构、大型网站的 CSS 开发、
  代码风格指南、命名习惯等
+
+ MySQL 资源大全
+
+ MySQL 资源大全中文版，
+ 分析工具、备份、性能测试、配置、部署、
+ GUI、聊天应用、连接器、HA、代理、服务器、分片、工具包 等。
  */
 
 public class FlickrFetchr {
