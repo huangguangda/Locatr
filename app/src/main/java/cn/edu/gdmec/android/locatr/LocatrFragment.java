@@ -48,7 +48,7 @@ public class LocatrFragment extends SupportMapFragment{
     private Location mCurrentLocation;
     private LatLng myPoint;
     //private LatLng myPoint;
-
+//完成
     public static LocatrFragment newInstance(){
         return new LocatrFragment ();
     }
