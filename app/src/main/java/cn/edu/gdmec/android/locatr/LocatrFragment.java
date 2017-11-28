@@ -130,7 +130,6 @@ public class LocatrFragment extends SupportMapFragment{
                     }
                 } );
     }
-
     private void updateUI(){
         if (mMap == null || mMapImage == null){
             return;
